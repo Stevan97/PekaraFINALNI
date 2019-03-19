@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/add_pekaru_naziv"
+        android:hint="@string/naziv_pekare"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pekaru_opis"
+        android:hint="@string/opis_pekare"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pekaru_adresa"
+        android:hint="@string/adresa_pekare"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pekaru_datum_osnivanja"
+        android:hint="@string/datum_osnivanja_pekare_dd_mm_yyyy"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pekaru_brojTelefona"
+        android:hint="@string/broj_telefona_duzi_od_5"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/add_pekaru_ocena"
+        android:hint="@string/ocenite_pekaru_od_0_do_10"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"
+        android:inputType="number|numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/add_pekaru_radnoVremeOD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/radno_vreme_od"
+            android:inputType="number"
+            android:textColor="@color/colorRED"
+            android:textColorHint="@color/colorRED" />
+
+        <EditText
+            android:id="@+id/add_pekaru_radnoVremeDO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/radno_vreme_do"
+            android:inputType="number"
+            android:textColor="@color/colorRED"
+            android:textColorHint="@color/colorRED" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_pekaru_button_confirm"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/potvrdi"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/add_pekaru_button_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@string/odustani"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

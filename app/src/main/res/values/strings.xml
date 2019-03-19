@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PekaraFINALNI</string>
+    <string name="aplikacija_o_glumcima_u_ovoj_aplikaciji_mozete_videti_listu_glumaca_njihove_podatke_i_filmove_u_kojima_je_glumio_milose_samo_jedan_podsetnik_naravno_ako_je_aplikacija_dobra_za_plus_sto_ste_rekli_da_mozete_dati">Aaaaaa</string>
+    <string name="nije_dovoljno_dobro_p">ZATVORI DIJALOG</string>
+    <string name="ovaj_dialog_ce_se_prikazati_samo_prvi_i_jedini_put_kada_je_aplikacija_instalirana_i_pokrenuta_osim_u_slucaju_reinstalacije">Ovaj dijalog ce se prikazati samo PRVI i JEDINI put kada je aplikacija instalirana, osim u slucaju reinstalacije opet ce se pojaviti samo prvi put.</string>
+    <string name="dodaj_pekaru">Dodaj Pekaru</string>
+    <string name="dialog_about_title">O Aplikaciji :</string>
+    <string name="dialog_about_message">U ovoj Aplikaciji mozete videti sve Pekare i detalje o pojedinacnoj Pekari.</string>
+    <string name="dialog_about_yes">OK</string>
+    <string name="dialog_about_no">Zatvori</string>
+    <string name="open_drawer">Drawer Opened</string>
+    <string name="close_drawer">Drawer Closed</string>
+    <string name="naziv_pekare">Naziv PEKARE</string>
+    <string name="opis_pekare">Opis Pekare</string>
+    <string name="datum_osnivanja_pekare_dd_mm_yyyy">Datum Osnivanja Pekare: dd-MM-yyyy</string>
+    <string name="broj_telefona_duzi_od_5">Broj Telefona: duzi od 5!</string>
+    <string name="ocenite_pekaru_od_0_do_10">Ocenite pekaru od 0 do 10 !</string>
+    <string name="radno_vreme_od">Radno Vreme OD</string>
+    <string name="radno_vreme_do">RADNO VREME DO</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="odustani">Odustani</string>
+    <string name="adresa_pekare">Adresa Pekare</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="dodaj_pecivo">Dodaj Pecivo</string>
+    <string name="lista_peciva">Lista Peciva:</string>
+    <string name="naziv_peciva">Naziv Peciva</string>
+    <string name="opis_peciva_sastojci">Opis Peciva: Sastojci</string>
+    <string name="cena_peciva">Cena Peciva</string>
+</resources>
